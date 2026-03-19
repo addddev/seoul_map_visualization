@@ -6,7 +6,7 @@
 
 ---
 
-## 📊 Features
+Features
 
 - 서울 생활인구 Heatmap 시각화
 - 행정동별 소득 수준 지도
@@ -15,7 +15,7 @@
 
 ---
 
-## 📁 Repository Structure
+Repository Structure
 
 
 ADDD_map_visualization/
@@ -31,7 +31,7 @@ ADDD_map_visualization/
 
 ---
 
-## ⚙️ Requirements
+Requirements
 
 - Python 3.x
 - Jupyter Notebook
@@ -43,7 +43,7 @@ ADDD_map_visualization/
 
 ---
 
-## 🚀 How to Run
+How to Run
 
 ### 1. 데이터 준비
 본 프로젝트는 공공데이터를 사용하며, 저장소에는 포함되어 있지 않습니다.  
@@ -51,20 +51,20 @@ ADDD_map_visualization/
 
 ---
 
-### 2. Jupyter Notebook 실행
+Jupyter Notebook 실행
 
 notebooks/*.ipynb 실행
 
 
 ---
 
-### 3. 웹 시각화 실행
+웹 시각화 실행
 - Apache 환경에서 `web/` 디렉토리 배포
 - PHP에서 Python 스크립트를 호출하여 지도 생성
 
 ---
 
-## 📦 Data Sources
+Data Sources
 
 본 프로젝트는 아래 공공데이터를 활용합니다.
 
@@ -82,7 +82,7 @@ notebooks/*.ipynb 실행
 
 ---
 
-## ⚠️ Data License Notice
+Data License Notice
 
 본 프로젝트에 사용된 데이터는 서울 열린데이터광장에서 제공하는 공공데이터를 기반으로 하며,  
 각 데이터의 저작권 및 이용 조건은 원 제공기관의 정책을 따릅니다.
@@ -92,13 +92,13 @@ notebooks/*.ipynb 실행
 
 ---
 
-## 📄 License
+License
 
 This project is licensed under the Apache License 2.0.
 
 ---
 
-## 💡 Notes
+Notes
 
 - 데이터는 주기적으로 업데이트되므로 최신 데이터를 사용해야 합니다.
 - 행정동 경계 및 통계 시점이 다를 수 있어 일부 오차가 발생할 수 있습니다.
