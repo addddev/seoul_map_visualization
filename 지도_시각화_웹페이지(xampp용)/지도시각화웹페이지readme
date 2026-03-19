@@ -1,0 +1,10 @@
+# 서울데이터시각화웹페이지readme
+
+/home/addd/miniconda3/bin/python3 php파일의 이 부분 TODO 파이썬 경로로 수정 필요
+
+(xampp면 거의 잘 될텐데 안 되시면 $uid = posix_getuid(); $userInfo = posix_getpwuid($uid); echo "User: " . $userInfo['name']; 이거 입력하셔서 누가 파일 소유주인지 확인하시고, daemon:daemon자리를 소유주의 이름으로 바꿔주세요. ex) www-data가 소유주이면 sudo chown www-data:www-data /opt/lampp/htdocs/시군구_dict.json)
+sudo mv /home/addd/Downloads/202312_update_subway_geo.csv /home/addd/Downloads/df_hangjungdong_code_data_2024.csv /home/addd/Downloads/CARD_SUBWAY_MONTH_202312.csv /home/addd/Downloads/hangjeongdong_서울특별시.geojson /home/addd/Downloads/seoul_income.csv /home/addd/Downloads/'서울시 상권분석서비스(소득소비-행정동).csv' /home/addd/Downloads/df_merged_202312.csv /home/addd/Downloads/addd_webpage_map_visualization.php /home/addd/Downloads/addd_webpage_map_visualization.py /home/addd/Downloads/addd_webpage_map_visualization_subway.py /home/addd/Downloads/addd_webpage_map_visualization_income.py /opt/lampp/htdocs
+
+sudo chown daemon:daemon /opt/lampp/htdocs/202312_update_subway_geo.csv /opt/lampp/htdocs/df_hangjungdong_code_data_2024.csv /opt/lampp/htdocs/CARD_SUBWAY_MONTH_202312.csv /opt/lampp/htdocs/hangjeongdong_서울특별시.geojson /opt/lampp/htdocs/seoul_income.csv /opt/lampp/htdocs/'서울시 상권분석서비스(소득소비-행정동).csv' /opt/lampp/htdocs/df_merged_202312.csv /opt/lampp/htdocs/addd_webpage_map_visualization.php /opt/lampp/htdocs/addd_webpage_map_visualization.py /opt/lampp/htdocs/addd_webpage_map_visualization_subway.py /opt/lampp/htdocs/addd_webpage_map_visualization_income.py
+
+sudo chmod 666 /opt/lampp/htdocs/202312_update_subway_geo.csv /opt/lampp/htdocs/df_hangjungdong_code_data_2024.csv /opt/lampp/htdocs/CARD_SUBWAY_MONTH_202312.csv /opt/lampp/htdocs/hangjeongdong_서울특별시.geojson /opt/lampp/htdocs/seoul_income.csv /opt/lampp/htdocs/'서울시 상권분석서비스(소득소비-행정동).csv' /opt/lampp/htdocs/df_merged_202312.csv /opt/lampp/htdocs/addd_webpage_map_visualization.php /opt/lampp/htdocs/addd_webpage_map_visualization.py /opt/lampp/htdocs/addd_webpage_map_visualization_subway.py /opt/lampp/htdocs/addd_webpage_map_visualization_income.py
